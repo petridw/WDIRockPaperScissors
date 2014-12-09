@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Rock, Paper, Scissors!</title>
+</head>
+<body>
+  <header>
+    <h1>rock paper scissors</h1>
+  </header>
+
+  <div class="buttons">
+    <button id="rock" onclick="userPicksRock()">Rock</button>
+    <button id="paper" onclick="userPicksPaper()">Paper</button>
+    <button id="scissors" onclick="userPicksScissors()">Scissors</button>
+    <button id="startButton" onclick="runGame()">Go!</button>
+    <button id="resetButton" onclick="resetGame()">Reset</button>
+  </div>
+  <div class="container">
+    <div class="zone">
+      <img src="" id="userChoiceImage">
+    </div>
+    <div class="zone">
+      <img src="" id="cpuChoiceImage">
+    </div>
+  </div>
+  <table class="scoreSheet">
+    <tr>
+      <td>User</td>
+      <td>Tie</td>
+      <td>CPU</td>gig
+    </tr>
+    <tr>
+      <td id="userScoreCell">0</td>
+      <td id="tieScoreCell">0</td>
+      <td id="cpuScoreCell">0</td>
+    </tr>
+  </table>
+
+  <footer></footer>
+</body>
+</html>

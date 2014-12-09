@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+tr {
+  padding: 5px;
+}
+td {
+  padding: 5px;
+}
+button {
+  margin: 5px;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.zone {
+  margin: 10px;
+  float: left;
+  height: 200px;
+  width: 200px;
+  border: 2px dotted grey;
+  text-align: center;
+}
+
+.scoreSheet {
+  margin: 0 auto;
+  clear: both;
+}
+
+#startButton {
+  background: #2ecc71;
+  color: white;
+  font-weight: bold;
+  display: none;
+  margin: 0 auto;
+}
+#resetButton {
+  display: block;
+  margin: 0 auto;
+}
